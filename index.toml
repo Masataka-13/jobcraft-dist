@@ -1,0 +1,11 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "af4c96fcc59bec634f457bf7693496f203ceaac28a180e84a73c488a1a2895cb"
+metafile = true
+
+[[files]]
+file = "mods/jobcraft.pw.toml"
+hash = "c6c4c7223e8b9ba7a6cc948ec3cd3be02a6f7e028891cca47bf76bb68e964eeb"
+metafile = true
