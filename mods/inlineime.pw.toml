@@ -1,0 +1,13 @@
+name = "InlineIME"
+filename = "inlineime-1.0.4+26.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/XfsEUqsE/versions/onMd2rkr/inlineime-1.0.4%2B26.2.jar"
+hash-format = "sha512"
+hash = "18ee58a5abfc3897352fe07a36df7fc99ab34c2377198c3d0c579e9e0e2c2773eaf872bb1708925fe716c77d96dfa5e6300e82fa35ae7a6808f01de62a2ef6fb"
+
+[update]
+[update.modrinth]
+mod-id = "XfsEUqsE"
+version = "onMd2rkr"

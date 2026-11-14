@@ -1,0 +1,13 @@
+name = "No End Flash!"
+filename = "noendflash_26.2-0.3.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/qgAML14g/versions/6koAplfV/noendflash_26.2-0.3.0.jar"
+hash-format = "sha512"
+hash = "14187ee85babafcd10c66b1e071102629f493b28ee8db485a98582d8caadc030766afc2e2a6892a42cc9510f17a891b80398c6e0210abcbbc23fc05c23fd0fa5"
+
+[update]
+[update.modrinth]
+mod-id = "qgAML14g"
+version = "6koAplfV"
