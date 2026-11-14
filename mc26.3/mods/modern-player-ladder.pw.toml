@@ -1,0 +1,13 @@
+name = "Modern Player Ladder"
+filename = "modern-player-ladder-2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gEHa0QZs/versions/HeNbBQQw/modern-player-ladder-2.0.0.jar"
+hash-format = "sha512"
+hash = "83f4aff1db5b0d46d5c2da685d9de9610b478aaf6afea9635ddf54883868bea707a7c63df10392831e18354bc4fb5bb41332f2b8fd6840ba1d8ec008cc944d88"
+
+[update]
+[update.modrinth]
+mod-id = "gEHa0QZs"
+version = "HeNbBQQw"

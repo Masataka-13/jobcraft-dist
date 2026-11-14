@@ -1,0 +1,13 @@
+name = "Mob Filter"
+filename = "mobfilter-fabric-0.29.0+26.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gRn1FzwR/versions/fGrDy7pw/mobfilter-fabric-0.29.0%2B26.3.jar"
+hash-format = "sha512"
+hash = "5d3332df71563487c9ad397de307ebcac96b3571b51f2cbc1358d2b82eed37ac9e00c29404926df207b4e78df01055c0fa75e36d6e22b66c810beb81c1b25ac0"
+
+[update]
+[update.modrinth]
+mod-id = "gRn1FzwR"
+version = "fGrDy7pw"
