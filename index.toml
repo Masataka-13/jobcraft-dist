@@ -82,7 +82,7 @@ metafile = true
 
 [[files]]
 file = "mods/jobcraft.pw.toml"
-hash = "25819d1685b773ea51427678c642fbd80d12b25c81f4315badba119fdaa3507c"
+hash = "515e9639b020c949281469211f13d4abadc4454c40d045da271c92537628fb41"
 metafile = true
 
 [[files]]
