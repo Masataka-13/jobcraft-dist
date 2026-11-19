@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/bobby.pw.toml"
-hash = "7412c982b4fb5331fdceec4edc1d26746e4c62fbda5bad1f8789ed5e27d7adbb"
+hash = "b8901b56c519f6befb9c9e6872b7739260685301bdda42388ede891a3d2f3735"
 metafile = true
 
 [[files]]
@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/flashback.pw.toml"
-hash = "34a7b3bd30d26c585638537c7a84281fce92b7e4054f1e76978a000895f97a5a"
+hash = "aeebf7c695db5f5d60850ee34a32be97ac6866d2498c2018fbd12c3ca49d4e41"
 metafile = true
 
 [[files]]
@@ -52,12 +52,12 @@ metafile = true
 
 [[files]]
 file = "mods/freecam.pw.toml"
-hash = "956925160888e1f05887dc1a5a97ba91ce0288b967d4d1dc826af52c737b1a29"
+hash = "5d108ac3d270e13ade516605bfd52ec670b3b97ab054875af34ee0867ae554db"
 metafile = true
 
 [[files]]
 file = "mods/gamma-utils.pw.toml"
-hash = "e598aebd1433a4c01be105a9e07b642aedc3e62d55cfae63a75612b96dee4319"
+hash = "6decaef50d868d2c13dad87e989ba01dc01b55ec989a44d8689caa315dae7d8b"
 metafile = true
 
 [[files]]
@@ -67,12 +67,12 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "6afdd9a4f55afb1f553f2cef664d05c70680263cfb327f951755452f2c34670d"
+hash = "0014c8374e3d0582c1dd59b9bbe769c4d756d43279d9ff01635c34fbdab83f5a"
 metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "3af2426b8d83a5fcda1ff6de2035d53bcff532653c196f2ea6d7647995e45131"
+hash = "8f14c2f2e1d5812d2f1eed9cba685a5b3b1281abf290861ae124e7a9e5e7237c"
 metafile = true
 
 [[files]]
@@ -86,7 +86,7 @@ metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "76468dc86541ea6241ce7a3364d6f87cae3126f9009d60469083b43458f75d14"
+hash = "8b83f562cf26761c02125b417ab524af2fc2370d7a19015e32754e8c416ed976"
 metafile = true
 
 [[files]]
@@ -96,12 +96,12 @@ metafile = true
 
 [[files]]
 file = "mods/litematica-printer.pw.toml"
-hash = "501704fe727c61edeeff16513a747060cd68f1904b316595d3fdb34d90fa3bef"
+hash = "39a3da1e0b2d2fb09af1e8940dfe0f72044481802fae83547b0d51f6bce61343"
 metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "5f52a5a69d6ea21c65a9df879fb9b334ed2aaf3ddb50bf13c9e2a57cc079a50d"
+hash = "dfe26bb22033ccb081a466a5ded43777b3058c622e79673097616485dc256e62"
 metafile = true
 
 [[files]]
@@ -121,7 +121,7 @@ metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "3cc0adb13783202ba6b53fdfc3a0dfed4b9d0e95c9c186a4796b3530c2d83c13"
+hash = "34a9f6954bbbb6436c24a4cb51ee4e36052615d8bf9f7132ef862ae90de4e2ff"
 metafile = true
 
 [[files]]
@@ -171,17 +171,17 @@ metafile = true
 
 [[files]]
 file = "mods/syncmatica.pw.toml"
-hash = "1063819c4a7de56b72384a52615bc2dc7818c44b5791072b5b315ca372308fca"
+hash = "1e0c93b41d6c6956c6841217a4fdb0aef9eac7289f93428845b204c9ca5c9f7f"
 metafile = true
 
 [[files]]
 file = "mods/tweakeroo.pw.toml"
-hash = "c981452e48f756282f7f21dc5794aedbd8c6649fcad471126711a6e8982d50b8"
+hash = "3e9e89850b8a7578c13ff8b7d1af9ccb15521fb67327d286df3ee220a3555332"
 metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "7a5c3bfa2b6572c8e2d859e77798fdad5c69bdc027e4040d4f98f53e812875a5"
+hash = "ba19f10fa9276e737a8c7859b94315588e61f8d5f402bfe89c8309268d11589e"
 metafile = true
 
 [[files]]
@@ -191,5 +191,5 @@ metafile = true
 
 [[files]]
 file = "mods/zoomify.pw.toml"
-hash = "7ac50a41949c05df550b62d54051bc171491644eef010aa19bd8abe3419909b1"
+hash = "89c744755e44e526fa9d358fe922768a9d54e756e7c7b75168763bf51e23812a"
 metafile = true

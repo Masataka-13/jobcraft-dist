@@ -11,3 +11,8 @@ hash = "bc69152a78b4b70c065415ff6695cf5285d769e33e8dbc2109d645c012cc811b55349966
 [update.modrinth]
 mod-id = "UMxybHE8"
 version = "WfIgkxnf"
+
+[option]
+optional = true
+default = true
+description = "座標などを画面に出す"

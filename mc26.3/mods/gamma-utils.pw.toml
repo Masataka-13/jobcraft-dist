@@ -11,3 +11,8 @@ hash = "6cc6029537b7741af1c7b36a9f44e22bf379c4851c4d44918acc24d2d74009d4739eb1a1
 [update.modrinth]
 mod-id = "wdLuzzEP"
 version = "k6ywOirE"
+
+[option]
+optional = true
+default = true
+description = "明るさの上限を上げる"

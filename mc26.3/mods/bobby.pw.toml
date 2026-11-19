@@ -11,3 +11,8 @@ hash = "f9ed86c48eb095b0e35f6f16abd376ad8dd3d2a5cd336fe8907d0562c9ecd1e0c7af35fc
 [update.modrinth]
 mod-id = "M08ruV16"
 version = "J7YnfCss"
+
+[option]
+optional = true
+default = true
+description = "遠くの景色を覚えて表示する"

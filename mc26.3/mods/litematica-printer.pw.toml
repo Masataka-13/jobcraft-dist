@@ -11,3 +11,8 @@ hash = "cb93b7164e1229df4b0d262f984354a4c956a41967c6a0327318f5634dd9ed31e643320f
 [update.modrinth]
 mod-id = "3llatzyE"
 version = "gnQ8CGTG"
+
+[option]
+optional = true
+default = true
+description = "Litematica の設計図を自動で置く（Litematica が必要）"

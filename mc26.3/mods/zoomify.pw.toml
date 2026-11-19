@@ -11,3 +11,8 @@ hash = "1c5bc8e46a3575847584bb6993034dbe7d8060be32ee676c473d36bd4bbbc4df21d03a8f
 [update.modrinth]
 mod-id = "w7ThoJFB"
 version = "RUBpNu00"
+
+[option]
+optional = true
+default = true
+description = "ズーム"

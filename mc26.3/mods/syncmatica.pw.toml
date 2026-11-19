@@ -11,3 +11,8 @@ hash = "7eb067b457123a221be27f1a41ea2480b8380ac07d3aba4d963343405b83ccfba26f8c29
 [update.modrinth]
 mod-id = "bfneejKo"
 version = "uT7TJ2Wp"
+
+[option]
+optional = true
+default = true
+description = "Litematica の設計図をみんなで共有する"

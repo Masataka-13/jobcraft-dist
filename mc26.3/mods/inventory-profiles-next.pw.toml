@@ -11,3 +11,8 @@ hash = "dbd7d0eeb71108f5d784dfe7aad6f0e774893491a8b571f9886df9fbed01803abbb63c1e
 [update.modrinth]
 mod-id = "O7RBXm3n"
 version = "y8vT21Sb"
+
+[option]
+optional = true
+default = true
+description = "持ち物の整理"

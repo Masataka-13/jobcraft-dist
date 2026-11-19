@@ -11,3 +11,8 @@ hash = "d461b24b3eeaf74ecc75911542cfbfeefe7148a2a260453f15af047d1a895f6484b8e218
 [update.modrinth]
 mod-id = "lfHFW1mp"
 version = "2zmj8ela"
+
+[option]
+optional = true
+default = true
+description = "ミニマップと全体の地図"

@@ -11,3 +11,8 @@ hash = "d8d3312f77fc52a48e4a6cd836fda33669bdebcb4de0b8c0d30adc808b287330a533e0ba
 [update.modrinth]
 mod-id = "YL57xq9U"
 version = "vTN4NRGW"
+
+[option]
+optional = true
+default = true
+description = "シェーダー（影MOD）"

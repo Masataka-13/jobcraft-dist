@@ -11,3 +11,8 @@ hash = "bc7bf23c41e5c3ddb43f4b455ff7d4d061cff8b574ff33aef0450a2c5ab9acd992020a9f
 [update.modrinth]
 mod-id = "XeEZ3fK2"
 version = "lwrkvqym"
+
+[option]
+optional = true
+default = true
+description = "カメラだけ自由に動かす"

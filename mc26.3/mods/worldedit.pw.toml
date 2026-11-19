@@ -11,3 +11,8 @@ hash = "3bc4fbf2ee36746f54dc036283b3ded3f17fd91991eaa1ead76b0861aa902cd7ffbc0962
 [update.modrinth]
 mod-id = "1u6JkXh5"
 version = "ByRNkO83"
+
+[option]
+optional = true
+default = true
+description = "範囲をまとめて置く・消す（建築用）"

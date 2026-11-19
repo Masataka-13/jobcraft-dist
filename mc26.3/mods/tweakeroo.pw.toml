@@ -11,3 +11,8 @@ hash = "190304ffcbee51ef7e6606fbb1060032fdebe78d3bcc2c60e84876f434b696c27fb2f830
 [update.modrinth]
 mod-id = "t5wuYk45"
 version = "fWxKATn6"
+
+[option]
+optional = true
+default = true
+description = "建築や操作を便利にする小技"

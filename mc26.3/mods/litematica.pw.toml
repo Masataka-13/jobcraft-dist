@@ -11,3 +11,8 @@ hash = "45a8d468463afb97b3fc72efa168024ad69e670e77f5455ecf588583434a1787b32795ed
 [update.modrinth]
 mod-id = "bEpr0Arc"
 version = "ZqV316KY"
+
+[option]
+optional = true
+default = true
+description = "設計図を見ながら建築する（建築用）"

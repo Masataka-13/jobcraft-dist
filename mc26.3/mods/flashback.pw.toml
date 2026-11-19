@@ -11,3 +11,8 @@ hash = "80d194d117352942ebf2bc96914e5f0f550ab857204cda5b362459110ea22a38332825ec
 [update.modrinth]
 mod-id = "4das1Fjq"
 version = "cV1pa0YV"
+
+[option]
+optional = true
+default = true
+description = "プレイを録画して見返す"
