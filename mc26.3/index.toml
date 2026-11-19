@@ -5,6 +5,10 @@ file = "jobcraft-launch.ps1"
 hash = "ef3257606d9e23863d67e2bf7fe05604c0855c9fd84b5c379a501fae46bc3661"
 
 [[files]]
+file = "jobcraft-launch.sh"
+hash = "0101482cf3abefb719f33ec89bf4031581fa6547b99ad64b284211bf2fa3f106"
+
+[[files]]
 file = "mods/bl4cks-sit.pw.toml"
 hash = "1dd420dda40ff21e8ea9c59781669a9785b658dc6a39fa7b11097341a06b4a20"
 metafile = true
