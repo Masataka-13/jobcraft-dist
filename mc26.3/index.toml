@@ -21,6 +21,11 @@ hash = "2b9727522c90a979eb9671ad7c5421443d91391b0697d1772146e6bfa19cb3c1"
 metafile = true
 
 [[files]]
+file = "mods/doumi.pw.toml"
+hash = "38253b6ba7c1b211561c5215e97e58eeff2a45523745c149c42e6ef3485dfd21"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "3d70571a3f55ab9d923addc371e87440286436b15141abf1ae780fa90dcbcf7d"
 metafile = true
@@ -112,6 +117,11 @@ metafile = true
 [[files]]
 file = "mods/locator-heads.pw.toml"
 hash = "a8c2641bfbe4758d8d33f21b926f5cec48cb555becaded7cd6f0de2fc2bf0f91"
+metafile = true
+
+[[files]]
+file = "mods/malilib-ime.pw.toml"
+hash = "8531bbee571f84750de67bcb1500b80076ca766f388fc97e3db1be06c5318433"
 metafile = true
 
 [[files]]

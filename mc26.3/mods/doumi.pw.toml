@@ -1,0 +1,18 @@
+name = "Doumi"
+filename = "doumi-fabric-0.16+26.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/I2H3z98O/versions/ktQChswx/doumi-fabric-0.16%2B26.3.jar"
+hash-format = "sha512"
+hash = "18951ea0a904b71276fe7b3d9384ca5fed7f26a9dffedbc8307ba7ab737a54e07c3cb8c3534a0417cc76d7367ffcd020dfe29879ef24eeec41265baa5859d330"
+
+[update]
+[update.modrinth]
+mod-id = "I2H3z98O"
+version = "ktQChswx"
+
+[option]
+optional = true
+default = true
+description = "日本語入力：変換中の文字を入力欄の中に出す"

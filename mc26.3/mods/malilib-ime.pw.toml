@@ -1,0 +1,18 @@
+name = "MaLiLib IME"
+filename = "malilibime-1.1.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/6yaSbIJZ/versions/smLWvzXY/malilibime-1.1.1.jar"
+hash-format = "sha512"
+hash = "8d2e7a0fa0a74a3915e3f72971975ba701d3ad3c21a4f3dfc1213286edb5a52707b004be52fd4098c4e4f75808648a98bde872bbcaa4fc8bebe49c1407ba5440"
+
+[update]
+[update.modrinth]
+mod-id = "6yaSbIJZ"
+version = "smLWvzXY"
+
+[option]
+optional = true
+default = true
+description = "日本語入力：Litematica・MiniHUD・Tweakeroo の入力欄で使えるように"
