@@ -76,8 +76,8 @@ hash = "3af2426b8d83a5fcda1ff6de2035d53bcff532653c196f2ea6d7647995e45131"
 metafile = true
 
 [[files]]
-file = "mods/jobcraft-visuals-1.6.2-mc26.3.jar"
-hash = "39f9d7645ad8b4db90a84c7bfa30ba245f7c0d605a13a62dd0eaa2017cdbf1a2"
+file = "mods/jobcraft-visuals-1.6.3-mc26.3.jar"
+hash = "eb6a3ba25f8787868919aee743c401da4fee196edcd7aa83043157de83139207"
 
 [[files]]
 file = "mods/jobcraft.pw.toml"
