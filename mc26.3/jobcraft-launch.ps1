@@ -49,16 +49,19 @@ if ($disabled.Count -gt 0) { Write-Host "[JobCraft] unchecked mods: $($disabled.
 
 try {
 	# 2. update the pack
-	Push-Location $mc
-	& $java -jar $boot $pack
-	if ($LASTEXITCODE -ne 0) { Write-Host "[JobCraft] packwiz exit code $LASTEXITCODE (starting the game anyway)" }
+	# Prism gives javaw.exe (no console). PowerShell does not wait for javaw, so wait with Start-Process -Wait.
+	$p = Start-Process -FilePath $java -ArgumentList @('-jar', "`"$boot`"", $pack) -WorkingDirectory $mc -Wait -PassThru -NoNewWindow
+	Write-Host "[JobCraft] packwiz finished (exit code $($p.ExitCode))"
+}
+catch {
+	Write-Host "[JobCraft] packwiz could not run: $_ (starting the game anyway)"
 }
 finally {
-	Pop-Location
 	# 3. back to unchecked
 	foreach ($jar in $disabled) {
 		if (Test-Path -LiteralPath $jar) {
-			Rename-Item -LiteralPath $jar -NewName ((Split-Path $jar -Leaf) + '.disabled')
+			if (Test-Path -LiteralPath ($jar + '.disabled')) { Remove-Item -LiteralPath $jar -Force }
+			else { Rename-Item -LiteralPath $jar -NewName ((Split-Path $jar -Leaf) + '.disabled') }
 		}
 	}
 }

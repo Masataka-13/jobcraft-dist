@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "jobcraft-launch.ps1"
-hash = "ef3257606d9e23863d67e2bf7fe05604c0855c9fd84b5c379a501fae46bc3661"
+hash = "6ff41ee3ebf5feb4babd132c8ae17d625681262a7fee8853e4b765f16ef7c451"
 
 [[files]]
 file = "jobcraft-launch.sh"
-hash = "0101482cf3abefb719f33ec89bf4031581fa6547b99ad64b284211bf2fa3f106"
+hash = "27a73cc09fe9f3fca3551cbb7f72b1b2d229fc3b3e9ce37f81ab200673047b9a"
 
 [[files]]
 file = "mods/bl4cks-sit.pw.toml"

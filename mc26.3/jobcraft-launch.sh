@@ -44,7 +44,9 @@ done
 # 3. always put them back, even if packwiz fails
 restore() {
 	for jar in "${DISABLED[@]}"; do
-		[ -e "$jar" ] && mv "$jar" "$jar.disabled"
+		if [ -e "$jar" ]; then
+			if [ -e "$jar.disabled" ]; then rm -f "$jar"; else mv "$jar" "$jar.disabled"; fi
+		fi
 	done
 }
 trap restore EXIT

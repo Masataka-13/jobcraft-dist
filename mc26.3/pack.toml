@@ -6,7 +6,7 @@ version = "1.71.18+mc26.3"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "f2a35a41fcc2c01ca5f9ae326cc7d2bd820466f7d5f8fa31bd08b9e43010f5bb"
+hash = "6d3f60e059c714026338dcf2de8fc75d7b427b5a4e87d31ed8d0d240a7a9898d"
 
 [versions]
 minecraft = "26.3"
