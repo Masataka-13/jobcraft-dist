@@ -1,12 +1,12 @@
 name = "JobCraft (26.3)"
 author = "Masataka"
 pack-format = "packwiz:1.1.0"
-version = "1.71.29+mc26.3"
+version = "1.71.30+mc26.3"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "89c3ede85580631f8c60984635b71691a45a017911087dffcc790904b9ba6dab"
+hash = "3e0e2557d05cead9bd7546dbe2087bf7c9960bd77715bb1e60da9e179ab07653"
 
 [versions]
 minecraft = "26.3"
