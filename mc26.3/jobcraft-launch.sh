@@ -52,5 +52,5 @@ restore() {
 trap restore EXIT
 
 # 2. update the pack
-( cd "$MC" && "$JAVA" -jar "$BOOT" "$PACK" ) || echo "[JobCraft] packwiz failed (starting the game anyway)"
+( cd "$MC" && "$JAVA" -jar "$BOOT" -g "$PACK" )  # -g = no window || echo "[JobCraft] packwiz failed (starting the game anyway)"
 exit 0

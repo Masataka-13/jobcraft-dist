@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "jobcraft-launch.ps1"
-hash = "6ff41ee3ebf5feb4babd132c8ae17d625681262a7fee8853e4b765f16ef7c451"
+hash = "3fccc19ec98bde89bb1f95ebb8d5c3ea6946e5ffd5e53713fdad4edb990eee65"
 
 [[files]]
 file = "jobcraft-launch.sh"
-hash = "27a73cc09fe9f3fca3551cbb7f72b1b2d229fc3b3e9ce37f81ab200673047b9a"
+hash = "7575d1c8129acbe2ae808cf4cf609ad10cbb2c22e1591ab9215b1e3de1ea8827"
 
 [[files]]
 file = "mods/bl4cks-sit.pw.toml"
@@ -94,7 +94,7 @@ hash = "a403962feb197e053dd61ecfe7dd27b029fc77f3b9d57c5274c8a1578e9a3c79"
 
 [[files]]
 file = "mods/jobcraft.pw.toml"
-hash = "5635654e5c71b9645e72be3186a16e97ddbc71e68c957b9dcc6720fb7c494e06"
+hash = "2f5d64bf38aab56be8d650551f37ea31de51726fb6ecf7ee6b1cd61c445d4842"
 metafile = true
 
 [[files]]

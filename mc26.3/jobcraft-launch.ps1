@@ -5,7 +5,7 @@
 # What it does
 #   1. Mods you unchecked in Prism (mods\*.jar.disabled) are renamed back to *.jar for a moment,
 #      so packwiz sees them as installed and does not download them again.
-#   2. Runs packwiz (updates the pack).
+#   2. Runs packwiz without a window (updates the pack quietly).
 #   3. Renames those mods back to *.jar.disabled, so they stay unchecked.
 #   Also removes leftover *.duplicate files.
 #   If a disabled mod got a new version (new file name), the new version comes back checked.
@@ -50,7 +50,8 @@ if ($disabled.Count -gt 0) { Write-Host "[JobCraft] unchecked mods: $($disabled.
 try {
 	# 2. update the pack
 	# Prism gives javaw.exe (no console). PowerShell does not wait for javaw, so wait with Start-Process -Wait.
-	$p = Start-Process -FilePath $java -ArgumentList @('-jar', "`"$boot`"", $pack) -WorkingDirectory $mc -Wait -PassThru -NoNewWindow
+	# -g = no window (no "update" window, no "optional mods" question). Optional mods are chosen in Prism (checkboxes).
+	$p = Start-Process -FilePath $java -ArgumentList @('-jar', "`"$boot`"", '-g', $pack) -WorkingDirectory $mc -Wait -PassThru -NoNewWindow
 	Write-Host "[JobCraft] packwiz finished (exit code $($p.ExitCode))"
 }
 catch {
