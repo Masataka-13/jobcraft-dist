@@ -11,6 +11,14 @@
 # Works with the bash 3.2 that comes with macOS.
 
 PACK='https://raw.githubusercontent.com/Masataka-13/jobcraft-dist/main/mc26.3/pack.toml'
+# raw.githubusercontent.com caches files ~5 min; right after an update old/new files can mix.
+# Use the newest commit id (that address never changes, so all files match).
+SHA=$(curl -fsSL -m 10 -H 'User-Agent: jobcraft-launch' https://api.github.com/repos/Masataka-13/jobcraft-dist/commits/main 2>/dev/null | grep -o '"sha": *"[0-9a-f]\{40\}"' | head -n 1 | grep -o '[0-9a-f]\{40\}')
+if [ -n "$SHA" ]; then
+	PACK="https://raw.githubusercontent.com/Masataka-13/jobcraft-dist/$SHA/mc26.3/pack.toml"
+else
+	echo "[JobCraft] could not get the newest commit id (using main)"
+fi
 BOOT_URL='https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar'
 
 MC="${INST_MC_DIR:-$PWD}"

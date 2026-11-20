@@ -13,6 +13,15 @@
 
 $ErrorActionPreference = 'Continue'
 $pack = 'https://raw.githubusercontent.com/Masataka-13/jobcraft-dist/main/mc26.3/pack.toml'
+# raw.githubusercontent.com keeps each file in a cache for about 5 minutes, so right after an update
+# old and new files can be mixed (download errors). Use the newest commit id instead of "main":
+# that address never changes, so all files always match.
+try {
+	$sha = (Invoke-RestMethod 'https://api.github.com/repos/Masataka-13/jobcraft-dist/commits/main' -Headers @{ 'User-Agent' = 'jobcraft-launch' } -TimeoutSec 10).sha
+	if ($sha) { $pack = "https://raw.githubusercontent.com/Masataka-13/jobcraft-dist/$sha/mc26.3/pack.toml" }
+} catch {
+	Write-Host "[JobCraft] could not get the newest commit id (using main)"
+}
 $bootUrl = 'https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar'
 
 $mc = $env:INST_MC_DIR
