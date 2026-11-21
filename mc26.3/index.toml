@@ -94,7 +94,7 @@ hash = "a403962feb197e053dd61ecfe7dd27b029fc77f3b9d57c5274c8a1578e9a3c79"
 
 [[files]]
 file = "mods/jobcraft.pw.toml"
-hash = "4b079c0e0f3b66531811c578688e8204935221641f2d3589d7ccba825607607e"
+hash = "ee9eec8b52eef8cdb4df3066eed20e952dd871a6611fb36aa2373ee2d6867beb"
 metafile = true
 
 [[files]]
