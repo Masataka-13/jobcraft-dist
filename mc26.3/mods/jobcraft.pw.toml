@@ -1,8 +1,8 @@
 name = "JobCraft"
-filename = "jobcraft-1.71.51-mc26.3.jar"
+filename = "jobcraft-1.71.52-mc26.3.jar"
 side = "both"
 
 [download]
-url = "https://github.com/Masataka-13/jobcraft-dist/releases/download/v1.71.51-mc26.3/jobcraft-1.71.51-mc26.3.jar"
+url = "https://github.com/Masataka-13/jobcraft-dist/releases/download/v1.71.52-mc26.3/jobcraft-1.71.52-mc26.3.jar"
 hash-format = "sha512"
-hash = "511b778251451bc739142478a40f6b60794da1f67c94f593162903becd2d62bb9b6a51ad9ca8d52abad1ddd04e6e116bbda8af803be654ae737a67d85eb13ace"
+hash = "abe3772938a94cf52e57119a947b6de446f93cf726b66851241303517000be934424117fbbfe6eb29d460523002be780510c515478837c7c4338a3472dad2199"
