@@ -94,12 +94,7 @@ hash = "a403962feb197e053dd61ecfe7dd27b029fc77f3b9d57c5274c8a1578e9a3c79"
 
 [[files]]
 file = "mods/jobcraft.pw.toml"
-hash = "e3bdf803a865f39a74cd36f26d5dc20292779d8b45f8d60acb12bfc9e84c4187"
-metafile = true
-
-[[files]]
-file = "mods/journeymap.pw.toml"
-hash = "8b83f562cf26761c02125b417ab524af2fc2370d7a19015e32754e8c416ed976"
+hash = "8ba2931d4e2f212e40a8800c33c5248f7c1eebf7eccc73e780917139876249b6"
 metafile = true
 
 [[files]]
